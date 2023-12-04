@@ -1,0 +1,36 @@
+Q5. Define Favicon and give an illustrative example.
+
+Ans:- 	A favicon, short for "favorite icon," is a small, typically square image that is associated with a website. Favicons are displayed in various places, including 	browser tabs, bookmarks, and shortcut icons, providing a visual representation of a website to users. They serve as a branding element and help users quickly 	identify and distinguish between different websites.
+
+	Illustrative Example:
+
+	Let's consider an example where a website named "Example.com" wants to add a favicon. The favicon file is usually named "favicon.ico" and should be placed in 	the root directory of the website. Here's a simplified HTML example:
+
+
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Example.com</title>
+	    <!-- Link to the favicon.ico file -->
+	    <link rel="icon" href="favicon.ico" type="image/x-icon">
+	    <!-- Optional: specify a larger icon for certain platforms -->
+	    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	    <meta name="description" content="A simple example website with a favicon.">
+	</head>
+
+	<body>
+	    <!-- Your website content goes here -->
+	    <h1>Welcome to Example.com</h1>
+	    <p>This is a simple example website.</p>
+	</body>
+	</html>
+
+	In this example:
+
+	- The `<link>` tag with `rel="icon"` is used to specify the location of the favicon file ("favicon.ico") in the root directory of the website.
+
+	- Optionally, the `<link>` tag with `rel="apple-touch-icon"` is used to specify a larger icon for Apple devices with a size of 180x180 pixels. This is often 	recommended for better display on iOS devices.
+
+	Including a favicon in your website not only adds a visual element for brand recognition but also enhances the user experience, especially for users who have 	multiple tabs open in their browsers or who bookmark your site. The favicon is a small but important detail that contributes to the overall professionalism and 	identity of a website.
